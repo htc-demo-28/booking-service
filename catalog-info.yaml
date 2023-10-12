@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "booking-service"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-28"
+    "humanitec.com/appId": "booking-service"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
